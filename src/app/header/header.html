@@ -1,0 +1,11 @@
+<div class="flex flex-row justify-content-between p-2 bg-bluegray-700">
+    <h3>Hotel Management System</h3>
+    
+    <div class="flex flex-row justify-content-center align-items-center gap-4 text-700">
+        <div class="cursor-pointer" (click)="core.goToPage('/')">Home</div>
+        <div class="cursor-pointer" (click)="core.goToPage('tasks')">Tasks</div>
+        <div class="cursor-pointer p-" (click)="core.goToPage('contact')" matTooltip="Profile">
+            <mat-icon>account_circle</mat-icon>
+            </div>
+    </div>
+</div>
